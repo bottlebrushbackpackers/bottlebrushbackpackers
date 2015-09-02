@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="top">
+
+    {% include header.html %}
+    {% include slider.html %}
+
+    <div class="wrapper row2">
+    <div id="services" class="clear"> 
+      <!-- ################################################################################################ -->
+      <div class="group">
+        <div class="one_third first">
+          <article class="service"><i class="icon red circle fa fa-map-marker"></i>
+            <h2 class="heading">Our Location</h2>
+            <p class="btmspace-10">26b Cumberland St.</p>
+    <p class="btmspace-10">Right in the centre of Cessnock, 2 minutes walk to food, shopping, public transport and galleries.</p>
+           <!-- <p><a href="#">Read More &raquo;</a></p> -->
+          </article>
+        </div>
+        <div class="one_third">
+          <article class="service"><i class="icon orange circle fa fa-usd"></i>
+            <h2 class="heading">Our rates</h2>
+            <p class="btmspace-10">Get a bed for as low as $22* per night and $65 for an entire room to yourself.</p>
+            <p><a href="{{site.baseurl}}/rates">Read More>></a></p>
+
+          </article>
+        </div>
+        <div class="one_third">
+          <article class="service"><i class="icon green circle fa fa-home"></i>
+            <h2 class="heading">Our facilities</h2>
+            <p class="btmspace-10">Check our our gallery for the range of facilities we offer.</p>
+            <!-- <p><a href="{{site.baseurl}}/rooms">Our rooms>></a></p> -->
+            <p><a href="{{site.baseurl}}/facilities">Our facilities>></a></p>
+          </article>
+        </div>
+      </div>
+      <!-- ################################################################################################ -->
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  {% include commonarea.html %}
+  <!-- ################################################################################################ -->
+  {% include makebooking.html %}
+  <!-- ################################################################################################ -->
+  
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="container nospace clear"> 
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <div class="group">
+        <div class="one_half first paditout">
+          <h2 class="heading uppercase btmspace-50">How To Get Here</h2>
+          <ul class="nospace group">
+            <li class="btmspace-30">
+              <article class="service largeicon"><i class="icon nobg circle fa fa-bus"></i>
+                <h6 class="heading"><a href="#">BY BUS</a></h6>
+                <p class="btmspace-10">Get off at Stop “Cessnock City Council”, walk for 2 minutes.</p>
+                <p><strong>From Sydney</strong></p>
+                <p>Take the train to one of the following train station for a connecting bus:</p>
+                <ol class="btmspace-10 lmspace-20">
+                  <li><strong>163</strong> Morisset - Cessnock - 2 buses daily (50min)</li>
+                  <li><strong>164</strong> Maitland - Cessnock - bus every 1-2 hours (50min)</li>
+                </ol>
+                <p><strong>From Newcastle</strong></p>
+                <ol class="btmspace-10 lmspace-20">
+                  <li><strong>160</strong> Newcastle - Cessnock  - 2~5 buses daily(1hr 20 min)</li>
+                </ol>
+              </article>
+            </li>
+            <li class="btmspace-30">
+              <article class="service largeicon"><i class="icon nobg circle fa fa-car"></i>
+                <h6 class="heading"><a href="#">BY CAR</a></h6>
+                <p class="btmspace-10"><strong>From Sydney</strong> - 1 hour 20 minutes from Sydney. Turn left onto Cumberland Street from B82 Freeman’s Drive</p>
+                <p><strong>From Newcastle</strong> - 50 minutes from Newcastle. Take B68 via Kurri Kurri and turn left onto onto Cumberland Street , or take B82 Freeman’s Drive and turn left onto Cumberland Street.</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+        <div class="one_half">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13409.40037548611!2d151.357296!3d-32.835981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b0c9a408731c33!2sBottlebrush+Backpackers!5e0!3m2!1sen!2sau!4v1440204360883" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- <a href="#"><img src="images/demo/vertical.png" alt=""></a> -->
+        </div>
+      </div>
+      <!-- ################################################################################################ -->
+      <!-- / main body -->
+      <div class="clear"></div>
+    </main>
+  </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

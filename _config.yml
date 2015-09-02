@@ -1,0 +1,62 @@
+# Site settings
+title: "Bottlebrush Backpackers"
+description: "Bottlebrush Backpackers is the most centrally located backpackers in Hunter Valley. It is an excellent choice for backpackers searching for conveniently located budget accommodation."
+
+
+url: "http://bottlebrushbackpackers.com"
+
+email: "info@bottlebrushbackpackers.com"
+# contact_person: "Lindsay"
+# phone: "+61 458 481 485"
+contact_person: "Katie"
+phone: "+61 416 049 718"
+
+# Copyright owner's name for footer
+copyright: "www.bottlebrushbackpackers.com"
+
+baseurl: "/bottlebrush"
+
+# Exclude the following files/directories from being converted
+exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+
+
+# Slider slides 
+slides:
+  - img_url: "images/slides/exterior.jpg"
+    text: "Welcome to Bottlebrush Backpackers"
+    buttons: 
+      - button_text: "our facilities"
+        color: "orange"
+        url: "/facilities"
+      # - button_text: "make a booking"
+      #   color: "red"
+      #   url: "/booking"
+  - img_url: "images/slides/private_room.jpg"
+    text: "Enjoy a comfortable stay in the heart of Hunter Valley"
+    buttons: 
+      - button_text: "our rooms"
+        color: "red"
+        url: "/rooms"
+  - img_url: "images/slides/commonArea.jpg"
+    text: "Quality budget accommodation"
+    buttons: 
+      - button_text: "Our Rates"
+        color: "orange"
+        url: "/rates"
+      # - button_text: "Photo Gallery"
+      #   color: "red"
+      #   url: "/gallery"    
+
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+
+# TODOS
+# fix google map scrolling
+# add photos to rooms
+# fix nav in mobile on pages

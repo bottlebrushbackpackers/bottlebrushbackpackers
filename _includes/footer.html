@@ -1,0 +1,52 @@
+<div class="wrapper row4">
+  <footer id="footer" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="title">Contact Details</h6>
+      {% include address.html %}
+      <ul class="nospace">
+        <li class="btmspace-10"><span class="fa fa-phone"></span> {{site.phone}}</li>
+        <li><span class="fa fa-envelope-o"></span> <a href="mailto:{{site.email}}">Email Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="one_quarter">
+      <h6 class="title">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li><a href="{{site.baseurl}}/rates">Rates</a></li>
+        <li><a href="{{site.baseurl}}/rooms">Rooms</a></li>
+        <li><a href="{{site.baseurl}}/facilities">Facilities</a></li>
+        <li><a href="{{site.baseurl}}/getting-around">Getting Around</a></li>        
+      </ul>
+    </div>        
+    <div class="one_half">
+      <h6 class="title">Events</h6>
+      <article>
+        <strong>September 26</strong> - <a href="http://www.wollombimusicfestival.com.au/">Wollombi Music Festival</a><br>
+        <strong>October 3</strong> - Oktoberfest<br>
+        <strong>October 31 - November 29</strong> - Sculpture in the vineyards<br>
+        <strong>November 7</strong> - Neil Diamond at Tempus 2<br>
+        <strong>November 14-15</strong> - Fleetwood Mac at Hope Estate<br>
+        <strong>November 28</strong> - Paul Kelly<br>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; {{ site.time | date: "%Y" }} - All Rights Reserved - <a href="/">{{ site.copyright }}</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+<!-- JavaScript and Analytics -->
+{% include analytics.html %}
