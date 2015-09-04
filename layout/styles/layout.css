@@ -388,7 +388,6 @@ table a, #comments a{background-color:inherit;}
 	.latest ul li figure img{width:100%;}
 	.latest ul li figure figcaption{padding:15px 30px;}
 }
-
+.ga-block .one_half { margin-left: 0;}
 .privateTable td, .privateTable th {text-align:center;}
 .privateTable td:first-child {text-align:left;}
-.BBmap {width: 629px;height: 602px;margin-bottom: 30px;}
