@@ -391,3 +391,17 @@ table a, #comments a{background-color:inherit;}
 .ga-block .one_half { margin-left: 0;}
 .privateTable td, .privateTable th {text-align:center;}
 .privateTable td:first-child {text-align:left;}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
