@@ -225,6 +225,7 @@ td{border-width:0 1px;}
 .faico a{color:inherit; background-color:#EBEBEB;}
 .faico a:hover{color:#FFFFFF;}
 
+a.faicon-facebook{width:auto; padding: 0 6px;}
 .faicon-facebook:hover{background-color:#3B5998;}
 .faicon-google-plus:hover{background-color:#DB4A39;}
 .faicon-instagram:hover{background-color:#3F729B;}
