@@ -1,6 +1,6 @@
 # Site settings
 title: "Bottlebrush Backpackers"
-description: "Bottlebrush Backpackers is the most centrally located backpackers in Hunter Valley. It is an excellent choice for backpackers searching for conveniently located budget accommodation."
+description: "Bottlebrush Backpackers is the most centrally located hostel in Hunter Valley. It is an excellent choice for backpackers searching for conveniently located budget accommodation."
 
 
 url: "http://bottlebrushbackpackers.com"
@@ -28,15 +28,15 @@ slides:
       - button_text: "our facilities"
         color: "orange"
         url: "/facilities"
-      # - button_text: "make a booking"
-      #   color: "red"
-      #   url: "/booking"
   - img_url: "images/slides/private_room.jpg"
     text: "Enjoy a comfortable stay in the heart of Hunter Valley"
     buttons: 
       - button_text: "our rooms"
         color: "red"
         url: "/rooms"
+      - button_text: "like us on facebook"
+        color: "green"
+        url: "https://www.facebook.com/bottlebrushBackpackers"
   - img_url: "images/slides/commonArea.jpg"
     text: "Quality budget accommodation"
     buttons: 
