@@ -255,7 +255,7 @@ label span{color:#FF0000; background-color:inherit;}
 .green{background-color:#A7DFC4;}
 .flexslider .heading, .flexslider .btn{color:#FFFFFF;}
 
-h1, h2, h3, h4, h5, h6, .heading{color:#242424; border-color:inherit;}
+#logo h1, h1.heading, h2.heading, h3.heading, h4.heading, h5.heading, h6.heading {color:#242424; border-color:inherit;}
 
 
 /* Rows */
@@ -406,3 +406,5 @@ table a, #comments a{background-color:inherit;}
     width: 100% !important;
     height: 100% !important;
 }
+.booking-wrapper { padding: 0 5px;}
+.b_availForm select { display: inline-block; }
