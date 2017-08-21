@@ -9,7 +9,7 @@ email: "info@bottlebrushbackpackers.com"
 # contact_person: "Lindsay"
 # phone: "+61 458 481 485"
 contact_person: "Paul"
-phone: "+61 421 572 695"
+phone: ""
 
 # Copyright owner's name for footer
 copyright: "www.bottlebrushbackpackers.com"
@@ -20,17 +20,17 @@ baseurl: ""
 exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
 
 
-# Slider slides 
+# Slider slides
 slides:
   - img_url: "images/slides/exterior.jpg"
     text: "Welcome to Bottlebrush Backpackers"
-    buttons: 
+    buttons:
       - button_text: "our facilities"
         color: "orange"
         url: "/facilities"
   - img_url: "images/slides/private_room.jpg"
     text: "Enjoy a comfortable stay in the heart of Hunter Valley"
-    buttons: 
+    buttons:
       - button_text: "our rooms"
         color: "red"
         url: "/rooms"
@@ -39,13 +39,13 @@ slides:
         url: "https://www.facebook.com/bottlebrushBackpackers"
   - img_url: "images/slides/commonArea.jpg"
     text: "Quality budget accommodation"
-    buttons: 
+    buttons:
       - button_text: "Our Rates"
         color: "orange"
         url: "/rates"
       # - button_text: "Photo Gallery"
       #   color: "red"
-      #   url: "/gallery"    
+      #   url: "/gallery"
 
 
 # Build settings
